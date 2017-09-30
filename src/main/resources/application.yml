@@ -1,0 +1,14 @@
+server:
+  port: 8080
+wiki:
+  file_extension: md
+  path: D:/wiki-git
+  pageSize: 10
+logging:
+  level:
+    root: info
+    com.piggsoft.wiki: debug
+spring:
+  jackson:
+    default-property-inclusion: non_null
+    date-format: yyyy-MM-dd HH:mm:ss
